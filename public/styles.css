@@ -1,0 +1,129 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    margin: 0 auto;
+    background-color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+
+h1{
+    color: gold;
+    font-size: 65px;
+}
+
+h2{
+    color: gold;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.showDown{
+    display: flex;
+    justify-content: center;
+}
+
+.visualizer{
+    height: 400px;
+    width: 900px;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gold;
+    border-radius: 6px;
+}
+
+
+
+.userChoice{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+
+}
+
+.rock, .paper, .scissors{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    margin: 0px 10px 0px 10px;
+    text-decoration: underline;
+}
+
+.rock{
+    background-color: blue;
+
+}
+.paper{
+    background-color: red ;
+}
+.scissors{
+    background-color: green;
+}
+
+
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    border: 1px solid salmon;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+

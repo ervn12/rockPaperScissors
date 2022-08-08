@@ -41,12 +41,12 @@ footer {
 
 
 h1{
-    color: gold;
+    color: darkorange;
     font-size: 65px;
 }
 
 h2{
-    color: gold;
+    color: darkorange;
 }
 
 h1, h2{
@@ -63,11 +63,11 @@ h1, h2{
 .visualizer{
     height: 400px;
     width: 900px;
-    background-color: lavender;
+    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid gold;
+    border: 6px solid darkorange;
     border-radius: 6px;
 }
 
@@ -110,20 +110,16 @@ h1, h2{
 .scoreboard{
     display: flex;
     justify-content: center;
+    margin: 20px 10px 10px 10px ;
 }
 
 li{
-    border: 1px solid salmon;
+    border: 2px solid darkorange;
     width: 160px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 0px 0px 10px;
-}
-
-ul{
-    display: flex;
-    justify-content: center;
 }
 
